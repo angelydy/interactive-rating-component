@@ -18,9 +18,7 @@ Users should be able to:
 - Select and submit a number rating
 - See the "Thank you" card state after submitting a rating
 
-## My process
-
-### Built with
+## Built with
 
 - Semantic HTML5 markup
 - CSS
@@ -30,7 +28,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [Angely]()
+- Website - [Angely](https://www.github.com/angelydy)
 - Behance - [@angelydy](https://www.behance.net/angelydy)
 - Dribbble - [@angelydy](https://www.dribbble.com/angelydy)
 
