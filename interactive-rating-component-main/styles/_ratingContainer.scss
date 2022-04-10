@@ -1,0 +1,67 @@
+.rating-container {
+  align-items: center;
+  width: 100%;
+  user-select: none;
+  background: hsla(234, 20%, 18%, 0.792);
+  padding: 2rem;
+  width: 25rem;
+  height: 20rem;
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: fade 1s ease-in-out;
+
+  p {
+    color: rgb(177, 176, 176);
+  }
+
+  .star {
+    background: rgb(70, 70, 70);
+    padding: 0.5em;
+    border-radius: 50%;
+    width: 1.5rem;
+    text-align: center;
+  }
+
+  .rate-selection {
+    display: flex;
+
+    .rateBtn {
+      margin: 0 auto;
+      background: rgb(59, 59, 59);
+      padding: 0.6rem;
+      border-radius: 50%;
+      width: 1.5rem;
+      text-align: center;
+      color: rgb(177, 176, 176);
+
+      &:hover{
+        background: rgb(67, 67, 67);
+        color: #ffffff;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .submitBtn {
+    margin: 1.5rem 0 0 0;
+    background: hsl(30, 100%, 42%);
+    border-style: none;
+    border-radius: 30px;
+    font-weight: 600;
+    padding: 1rem;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  &.hide {
+    display: none;
+  }
+}

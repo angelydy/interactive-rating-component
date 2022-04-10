@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap');
+@import "ratingContainer";
+@import "thankYouContainer";
+@import "mobileView";
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: black;
+  color: white;
+  
+  a {
+    color: white;
+  }
+
+  .attribution {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+}
