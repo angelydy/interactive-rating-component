@@ -26,6 +26,7 @@ Users should be able to:
 - CSS
 - Sass
 - Flexbox
+- Vanilla Javascript
 
 ## Author
 
