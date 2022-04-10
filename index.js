@@ -8,8 +8,9 @@ let rateNum = 0;
 rateBtns.forEach(rate => {
   rate.addEventListener('click', () => {
     rate.classList.add('active');
-    if (rate.previousElementSibling.classList.contains('active')) {
+    if (rate.previousElementSibling.classList.contains('active') || rate.nextElementSibling.classList.contains('active')) {
       rate.previousElementSibling.classList.remove('active');
+      rate.nextElementSibling.classList.remove('active');
     }
     rateNum = rate.innerHTML;
   })
