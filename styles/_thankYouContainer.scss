@@ -11,10 +11,9 @@
   align-items: center;
   width: 100%;
   user-select: none;
-  background: hsla(234, 20%, 18%, 0.792);
+  background: hsl(213, 19%, 18%);
   padding: 2rem;
-  width: 25rem;
-  height: 20rem;
+  width: 20rem;
   border-radius: 30px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
   position: absolute;
@@ -31,7 +30,8 @@
   .rate-div {
     color: hsl(30, 100%, 42%);
     background: rgb(59, 59, 59);
-    width: 15rem;
+    width: 13rem;
+    padding: 0.3rem;
     border-radius: 50px;
     position: relative;
     left: 50%;

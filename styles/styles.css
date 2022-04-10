@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
 .rating-container {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -8,10 +8,9 @@
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  background: rgba(37, 39, 55, 0.792);
+  background: #252d37;
   padding: 2rem;
-  width: 25rem;
-  height: 20rem;
+  width: 20rem;
   border-radius: 30px;
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
@@ -24,15 +23,17 @@
           animation: fade 1s ease-in-out;
 }
 
-.rating-container p {
-  color: #b1b0b0;
-}
-
 .rating-container .star {
-  background: #464646;
-  padding: 0.5em;
+  background: #2a3441;
+  padding: 0.6em;
   border-radius: 50%;
-  width: 1.5rem;
+  width: 1.4rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
 }
 
@@ -44,23 +45,28 @@
 
 .rating-container .rate-selection .rateBtn {
   margin: 0 auto;
-  background: #3b3b3b;
-  padding: 0.6rem;
+  background: #2a3441;
+  padding: 0.7rem;
   border-radius: 50%;
-  width: 1.5rem;
+  width: 1.4rem;
   text-align: center;
-  color: #b1b0b0;
+  color: #959eac;
 }
 
 .rating-container .rate-selection .rateBtn:hover {
-  background: #434343;
+  background: #7c8798;
   color: #ffffff;
   cursor: pointer;
 }
 
+.rating-container .rate-selection .rateBtn.active {
+  background: #fb7413;
+  color: white;
+}
+
 .rating-container .submitBtn {
   margin: 1.5rem 0 0 0;
-  background: #d66b00;
+  background: #fb7413;
   border-style: none;
   border-radius: 30px;
   font-weight: 600;
@@ -72,6 +78,11 @@
   left: 50%;
   -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
+}
+
+.rating-container .submitBtn:hover {
+  background: white;
+  color: #fb7413;
 }
 
 .rating-container.hide {
@@ -105,10 +116,9 @@
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  background: rgba(37, 39, 55, 0.792);
+  background: #252d37;
   padding: 2rem;
-  width: 25rem;
-  height: 20rem;
+  width: 20rem;
   border-radius: 30px;
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
@@ -128,7 +138,8 @@
 .thankYou-container .rate-div {
   color: #d66b00;
   background: #3b3b3b;
-  width: 15rem;
+  width: 13rem;
+  padding: 0.3rem;
   border-radius: 50px;
   position: relative;
   left: 50%;
@@ -152,13 +163,18 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
-  background: black;
+  font-family: 'Overpass', sans-serif;
+  background: #121417;
   color: white;
 }
 
 body a {
   color: white;
+}
+
+body p {
+  color: #959eac;
+  font-size: 0.9375rem;
 }
 
 body .attribution {

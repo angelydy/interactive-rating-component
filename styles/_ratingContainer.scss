@@ -1,11 +1,16 @@
+$darkBlue: hsl(213, 19%, 18%);
+$lighterBlue: hsl(214, 21%, 21%);
+$orange: hsl(25, 97%, 53%);
+$darkerBlue: hsl(216, 12%, 8%);
+$mediumGray: hsl(216, 12%, 54%);
+
 .rating-container {
   align-items: center;
   width: 100%;
   user-select: none;
-  background: hsla(234, 20%, 18%, 0.792);
+  background: $darkBlue;
   padding: 2rem;
-  width: 25rem;
-  height: 20rem;
+  width: 20rem;
   border-radius: 30px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
   position: absolute;
@@ -14,16 +19,15 @@
   transform: translate(-50%, -50%);
   animation: fade 1s ease-in-out;
 
-  p {
-    color: rgb(177, 176, 176);
-  }
-
   .star {
-    background: rgb(70, 70, 70);
-    padding: 0.5em;
+    background: $lighterBlue;
+    padding: 0.6em;
     border-radius: 50%;
-    width: 1.5rem;
+    width: 1.4rem;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    
   }
 
   .rate-selection {
@@ -31,24 +35,29 @@
 
     .rateBtn {
       margin: 0 auto;
-      background: rgb(59, 59, 59);
-      padding: 0.6rem;
+      background: $lighterBlue;
+      padding: 0.7rem;
       border-radius: 50%;
-      width: 1.5rem;
+      width: 1.4rem;
       text-align: center;
-      color: rgb(177, 176, 176);
+      color: hsl(217, 12%, 63%);
 
       &:hover{
-        background: rgb(67, 67, 67);
+        background: $mediumGray;
         color: #ffffff;
         cursor: pointer;
+      }
+
+      &.active {
+        background: $orange;
+        color: white;
       }
     }
   }
 
   .submitBtn {
     margin: 1.5rem 0 0 0;
-    background: hsl(30, 100%, 42%);
+    background: $orange;
     border-style: none;
     border-radius: 30px;
     font-weight: 600;
@@ -59,6 +68,11 @@
     position: relative;
     left: 50%;
     transform: translate(-50%, 0);
+
+    &:hover {
+      background: white;
+      color: $orange;
+    }
   }
 
   &.hide {

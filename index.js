@@ -7,7 +7,10 @@ let rateNum = 0;
 
 rateBtns.forEach(rate => {
   rate.addEventListener('click', () => {
-    rate.style.backgroundColor = '#707070';
+    rate.classList.add('active');
+    if (rate.previousElementSibling.classList.contains('active')) {
+      rate.previousElementSibling.classList.remove('active');
+    }
     rateNum = rate.innerHTML;
   })
 })
