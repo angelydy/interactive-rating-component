@@ -20,10 +20,8 @@ Users should be able to:
 
 ## Built with
 
-- Semantic HTML5 markup
-- CSS
-- Sass
-- Flexbox
+- HTML5
+- CSS/SASS
 - Vanilla Javascript
 
 ## Author
