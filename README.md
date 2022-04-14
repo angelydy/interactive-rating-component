@@ -1,4 +1,4 @@
-# Frontend Mentor - Interactive rating component
+# Interactive Rating Component
 
 ![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
 
@@ -6,7 +6,7 @@
 
 Thanks for checking out this front-end coding challenge.
 
-This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). 
+This is a solution to the [Interactive rating component challenge]
 
 
 ## The challenge
